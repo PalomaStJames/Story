@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7efdc">
+  <meta name="description" content="Chandigarh, Winter of 1982 — a story of Raunaq Kohli and Akanksha Sharma.">
+  <title>Chandigarh — Winter of 1982</title>
+  <style>
+    :root { color-scheme: light; --paper: #f7efdc; --ink: #312b25; }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: Georgia, "Times New Roman", serif;
+    }
+    .page-shell {
+      width: min(100%, 1080px);
+      margin: 0 auto;
+      background: var(--paper);
+      box-shadow: 0 0 48px rgba(48, 36, 20, .12);
+    }
+    .story-art {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    .reading-note {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 1.25rem 1.5rem 2.5rem;
+      text-align: center;
+      font-size: .9rem;
+      line-height: 1.6;
+      color: #766957;
+    }
+    .top-link {
+      position: fixed;
+      right: 1rem;
+      bottom: 1rem;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 2.75rem;
+      height: 2.75rem;
+      border: 1px solid rgba(49,43,37,.18);
+      border-radius: 50%;
+      background: rgba(255,250,239,.92);
+      color: var(--ink);
+      text-decoration: none;
+      box-shadow: 0 4px 18px rgba(0,0,0,.12);
+      font: 1.2rem/1 system-ui, sans-serif;
+      backdrop-filter: blur(8px);
+    }
+    .top-link:focus-visible { outline: 3px solid #006f75; outline-offset: 3px; }
+    @media (max-width: 600px) {
+      .page-shell { box-shadow: none; }
+      .reading-note { padding: 1rem 1.1rem 2rem; font-size: .82rem; }
+      .top-link { right: .65rem; bottom: .65rem; width: 2.5rem; height: 2.5rem; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+    }
+  </style>
+</head>
+<body id="top">
+  <main class="page-shell" aria-label="Winter of 1982 story">
+    <img
+      class="story-art"
+      src="winter-of-1982-story.jpg"
+      alt="The illustrated story Chandigarh — Winter of 1982, featuring Raunaq Kohli and Akanksha Sharma meeting at a Sector 8 bakery."
+      width="1620"
+      height="4290"
+      fetchpriority="high"
+    >
+    <p class="reading-note">Chandigarh · Winter of 1982</p>
+  </main>
+  <a class="top-link" href="#top" aria-label="Back to top" title="Back to top">↑</a>
+</body>
+</html>
